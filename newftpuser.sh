@@ -82,6 +82,6 @@ sudo /usr/local/bin/s3fs $S3BUCKETNAME \
 -o endpoint=us-east-1
 -o nonempty
 
-ps -ef | grep  s3fs
+ps -ef | grep s3fs
 
 echo finished!!
