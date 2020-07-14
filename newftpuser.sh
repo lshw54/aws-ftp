@@ -79,7 +79,7 @@ echo "EC2ROLE: $EC2ROLE"
 sudo /usr/local/bin/s3fs $S3BUCKETNAME \
 -o use_cache=/tmp,iam_role="$EC2ROLE",allow_other /home/$FTPUSERNAME/ftp/files \
 -o url="https://s3-$S3BUCKETREGION.amazonaws.com" \
--o endpoint=us-east-1
+-o endpoint=us-east-1 \
 -o nonempty
 
 ps -ef | grep s3fs
