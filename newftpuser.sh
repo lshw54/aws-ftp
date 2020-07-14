@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-S3BUCKETNAME=s3fs-ms
+S3BUCKETNAME=lwl-ftp
 S3BUCKETREGION=us-east-1
 FTPUSERNAME=ftpuser1
 FTPPASSWORD=password
